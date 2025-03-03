@@ -65,3 +65,11 @@ a817247 commit README
 e92e995 chore: Create second  file
 a7f6e35 chore: Create initial file
 ```
+### 2.Keeping History Tidy - Squashing Commitst:
+```bash
+Squashing combines multiple commits into a single one. Let's merge "Create second file" into "Create initial file" for a cleaner history.
+Challenge: Use interactive rebasing with the squash command to achieve this. learn more about squash here
+# SOLUTION
+
+
+```
