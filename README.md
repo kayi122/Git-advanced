@@ -41,7 +41,29 @@ Total 10 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (2/2), done.
 To https://github.com/kayi122/Git-advanced.git
  * [new branch]      main -> main
-
-
-
 ```
+### 2.Editing Commit History:
+```bash
+Editing Commit History:
+
+It's crucial to maintain accurate commit messages. Modify the message from "Create another file" to "Create second file".
+Challenge: Utilize interactive rebasing (git rebase -i HEAD~2) to edit the commit message and ensure clarity. learn more about git rebase here
+
+# SOLUTIONG
+USER@DESKTOP-0LNSN88 MINGW32 ~/Desktop/Git-advanced (main)
+$ git rebase -i HEAD~4
+[detached HEAD e92e995] chore: Create second  file
+ Date: Mon Mar 3 15:31:08 2025 +0200
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test2.md
+Successfully rebased and updated refs/heads/main.
+
+USER@DESKTOP-0LNSN88 MINGW32 ~/Desktop/Git-advanced (main)
+$ git log --oneline
+9fe7de0 (HEAD -> main)  modify README.md
+a817247 commit README
+9b7fc82 chore: create third and fourth files
+e92e995 chore: Create second  file
+a7f6e35 chore: Create initial file
+```
+
