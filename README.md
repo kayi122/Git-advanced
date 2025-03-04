@@ -39,12 +39,6 @@ Compressing objects: 100% (7/7), done.
 Writing objects: 100% (10/10), 877 bytes | 73.00 KiB/s, done.
 Total 10 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (2/2), done.
-<<<<<<< HEAD
-To https://github.com/kayi122/Git-advanced.git
- * [new branch]      main -> main
-=======
-
->>>>>>> main
 ```
 ### 2.Editing Commit History:
 ```bash
@@ -70,13 +64,7 @@ a817247 commit README
 e92e995 chore: Create second  file
 a7f6e35 chore: Create initial file
 ```
-<<<<<<< HEAD
-### 3.Keeping History Tidy - Squashing Commits
-```bash
 
-```
-
-=======
 ### 2.Keeping History Tidy - Squashing Commitst:
 ```bash
 Squashing combines multiple commits into a single one. Let's merge "Create second file" into "Create initial file" for a cleaner history.
@@ -85,4 +73,4 @@ Challenge: Use interactive rebasing with the squash command to achieve this. lea
 
 
 ```
->>>>>>> main
+
